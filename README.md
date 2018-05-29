@@ -2,7 +2,7 @@
 
 GPRD introduced many new privacy standards around the world, but it seems like that some providers requires you to untick a lot of checkboxes to protect your privacy atleast a little more.
 
-Although this is illegal, a lot of companies uses theses techniques as opt-out from advertising and data-collections.
+Although this is illegal, a lot of companies uses theses techniques as opt-out from advertising and data-collections. This also ony apply to European users, so international ones are still subject to unfair opt-outs.
 
 ## What does it do?
 

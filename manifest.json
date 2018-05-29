@@ -4,6 +4,17 @@
   "manifest_version": 2,
   "name": "unchecker",
   "version": "1.0",
+  "author": "Ad5001",
+  "developer": {
+      "name": "Ad5001",
+      "url": "https://ad5001.eu"
+  },
+  "applications": {
+      "gecko": {
+          "id": "unchecker@ad5001.eu",
+          "strict_min_version": "42.0"
+      }
+  },
   "homepage_url": "https://github.com/Ad5001/unchecker",
 
   "background": {
