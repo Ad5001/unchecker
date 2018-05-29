@@ -1,6 +1,6 @@
 {
 
-  "description": "Uncheck all checkboxes on a page.",
+  "description": "Simple extension letting you uncheck all checkboxes on a page.",
   "manifest_version": 2,
   "name": "unchecker",
   "version": "1.0",
