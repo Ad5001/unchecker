@@ -1,0 +1,85 @@
+<!--
+ * Unchecker - Simple extension letting you uncheck all checkboxes on a page
+ * Copyright (c) Ad5001 2021
+ * 
+ * This Source Code Form is subject to the terms of the Mozilla Public License, 
+ * v. 2.0. If a copy of the MPL was not distributed with this file, You can 
+ * obtain one at http://mozilla.org/MPL/2.0/.
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Unchecker tests</title>
+    <style>
+        legend {
+            background-color: #000;
+            color: #fff;
+            padding: 3px 6px;
+        }
+
+        .toggled {
+            border-color: blue;
+        }
+
+        input {
+            margin: .4rem;
+        }
+    </style>
+    <script src="test.js"></script>
+</head>
+<body>
+    <fieldset>
+        <legend>Example radio list</legend>
+        
+        <input type="radio" id="choice-value1" name="choice-value">
+        <label for="choice-value">Example, irrelevant choice value 1</label><br/>
+        
+        <input type="radio" id="choice-value2" name="choice-value">
+        <label for="choice-value">Example, irrelevant choice value 2</label><br/>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Third party partners example</legend>
+        
+        <input type="checkbox" id="ga-choice" checked="true">
+        <label for="ga-choice">Google Analytics</label><br/>
+        
+        <input type="checkbox" id="facebook-ads" checked="true">
+        <label for="facebook-ads">Facebook Partnering</label><br/>
+        
+        <input type="checkbox" id="amazon-sales" checked="true">
+        <label for="amazon-sales">Amazon</label><br/>
+        
+        <input type="checkbox" id="salesforce" checked="true">
+        <label for="salesforce">Salesforce</label><br/>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Third party partners second</legend>
+        
+        <table>
+            <tr>
+                <td>Google Analytics</td>
+                <td><button role="toggle" class="toggled" name="ga-choice">On</button></td>
+                <td><button role="toggle" name="ga-choice">Off</button></td>
+            </tr>
+            <tr>
+                <td>Facebook Partnering</td>
+                <td><button role="toggle" class="toggled" name="facebook-ads">On</button></td>
+                <td><button role="toggle" name="facebook-ads">Off</button></td>
+            </tr>
+            <tr>
+                <td>Amazon</td>
+                <td><button role="toggle" class="toggled" name="amazon-sales">On</button></td>
+                <td><button role="toggle" name="amazon-sales">Off</button></td>
+            </tr>
+            <tr>
+                <td>Salesforce</td>
+                <td><button role="toggle" class="toggled" name="salesforce">On</button></td>
+                <td><button role="toggle" name="salesforce">Off</button></td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>

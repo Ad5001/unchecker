@@ -1,34 +1,38 @@
 {
 
-  "description": "Simple extension letting you uncheck all checkboxes on a page.",
-  "manifest_version": 2,
-  "name": "unchecker",
-  "version": "1.0",
-  "author": "Ad5001",
-  "developer": {
-      "name": "Ad5001",
-      "url": "https://ad5001.eu"
-  },
-  "applications": {
-      "gecko": {
-          "id": "unchecker@ad5001.eu",
-          "strict_min_version": "42.0"
-      }
-  },
-  "homepage_url": "https://github.com/Ad5001/unchecker",
+    "description": "Simple extension letting you uncheck all checkboxes on a page.",
+    "manifest_version": 2,
+    "name": "unchecker",
+    "version": "1.1",
+    "author": "Ad5001",
+    "developer": {
+            "name": "Ad5001",
+            "url": "https://ad5001.eu"
+    },
+    "applications": {
+        "gecko": {
+            "id": "unchecker@ad5001.eu",
+            "strict_min_version": "60.0"
+        }
+    },
+    "homepage_url": "https://apps.ad5001.eu/unchecker/",
 
-  "background": {
-    "scripts": ["background.js"]
-  },
+    "background": {
+        "scripts": ["uncheck.js", "clickall.js"]
+    },
 
-  "browser_action": {
-    "default_icon": "icons/off.svg",
-    "browser_style": true
-  },
-
-  "permissions": [
-    "activeTab",
-    "tabs"
-  ]
+    "browser_action": {
+        "default_icon": "icons/on.svg",
+        "browser_style": true
+    },
+    "icons": {
+        "48": "icons/off.svg",
+        "96": "icons/off.svg"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "menus"
+    ]
 
 }

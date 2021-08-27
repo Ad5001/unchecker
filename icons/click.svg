@@ -1,0 +1,10 @@
+<svg id="SVGRoot" width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+ <g fill="#808080">
+  <path d="m15.78 7.583 16 12.279-6.78 1.138 4.256 8.676-3.902 1.907-4.281-8.758-5.293 4.581z"/>
+  <g fill-rule="evenodd" stroke-width="1.8898">
+   <path d="m0 3v12s0 3 3 3h9v-4h-6s-2 0-2-2v-6c0-2 2-2 2-2h20c2 0 2 2 2 2v6l4 3.1172v-12.117c0-3-3-3-3-3h-26s-3 0-3 3z"/>
+   <path d="m0 19h4s0 2 2 2h6v4h-8c-4 0-4-4-4-4z"/>
+   <path d="m0 26h4s0 2 2 2h6v4h-8c-4 0-4-4-4-4z"/>
+  </g>
+ </g>
+</svg>

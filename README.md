@@ -10,6 +10,10 @@ This extension is rather simple and allows you to check or uncheck all your chec
 
 One button and no more checkboxes ticked.
 
+This extension also features another functionality for websites that do not use checkboxes, but buttons instead: the "Click all similar buttons" feature.    
+![Image of unchecker's context menu](https://apps.ad5001.eu/img/en/unchecker/contextmenu.png)    
+By using this feature on an "Off" or "Disable" button, it click all buttons with the same label, similar to how all checkboxes are unticked when using the normal button.
+
 ## "I've seen an issue"
 
-If you have any issue (like a website not working), don't hesitate to create an issue on https://github.com/Ad5001/unchecker/issues
+If you have any issue (like a website not working), don't hesitate to create an issue on https://git.ad5001.eu/Ad5001/unchecker/issues
