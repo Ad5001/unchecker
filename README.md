@@ -1,5 +1,9 @@
 # Unchecker
 
+[![Version on addons.mozilla.org](https://img.shields.io/amo/v/unchecker?logo=Firefox)](https://addons.mozilla.org/en-US/firefox/addon/unchecker/)
+[![Rating on addons.mozilla.org](https://img.shields.io/amo/rating/unchecker)](https://addons.mozilla.org/en-US/firefox/addon/unchecker/reviews/)
+
+
 GDPR introduced many new privacy standards around the world, but it seems like that some providers requires you to untick a lot of checkboxes to protect your privacy atleast a little more.
 
 Although this is illegal, a lot of companies uses theses techniques as opt-out from advertising and data-collections. This also only apply to European users, so international ones are still subject to unfair opt-outs.
