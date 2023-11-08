@@ -37,7 +37,8 @@ function toggleScript(tab) {
             browser.scripting.executeScript({
                 func: uncheckAll,
                 target: {
-                    tabId: tab.id
+                    tabId: tab.id,
+                    allFrames: true
                 }
             })
             if(browser.menus)
