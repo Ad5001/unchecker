@@ -7,16 +7,14 @@
  * obtain one at http://mozilla.org/MPL/2.0/.
  **/
 
-const CHECKBOX_QUERY = 'input[type="checkbox"]'
-
 const uncheckAll = () => {
-    document.body.querySelectorAll(CHECKBOX_QUERY).forEach(function(el){
+    document.body.querySelectorAll('input[type="checkbox"]').forEach(function(el){
         el.checked = false
     })
 }
 
 const checkAll = () => {
-    document.body.querySelectorAll(CHECKBOX_QUERY).forEach(function(el){
+    document.body.querySelectorAll('input[type="checkbox"]').forEach(function(el){
         el.checked = true
     })
 }
@@ -32,15 +30,14 @@ const MENU_CONTEXTS = ["all"]
 function toggleScript(tab) {
 
     function gotTitle(title) {
-        console.log(title === TITLE_UNCHECK ? "Unchecking all checkboxes..." : "Checking all checkboxes...")
+        console.log((title === TITLE_UNCHECK ? "Unchecking all checkboxes..." : "Checking all checkboxes...") + " at tab " + tab.id)
         if(title === TITLE_UNCHECK) {
             browser.action.setIcon({tabId: tab.id, path: "icons/off.svg"})
             browser.action.setTitle({tabId: tab.id, title: TITLE_CHECK})
             browser.scripting.executeScript({
                 func: uncheckAll,
                 target: {
-                    tabId: tab.id,
-                    allFrames: true,
+                    tabId: tab.id
                 }
             })
             if(browser.menus)
